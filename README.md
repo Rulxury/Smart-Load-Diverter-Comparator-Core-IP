@@ -6,7 +6,8 @@ IP Core komparator beban cerdas (*Smart Load-Diverter Comparator - SLDC*) berbas
 
 ## 🖼 Vivado Block Design (Kria KV260 & Zynq UltraScale+ MPSoC)
 
-![Vivado Block Design - Kria KV260](kv260_block_design.png)
+<img width="1090" height="342" alt="Screenshot 2026-11-01 161136" src="https://github.com/user-attachments/assets/3aaf7c20-ae2c-43c1-8f85-85526eb4d576" />
+
 
 > **Keterangan Blok & Interkoneksi Hardware pada Diagram di atas:**
 > 1. **`zynq_ultra_ps_e_0` (Zynq UltraScale+ MPSoC)**: Processing System (PS) board Kria KV260 yang menjalankan Linux/Edge-AI. Mengontrol IP melalui port Master AXI Full-Power Domain (`M_AXI_HPM0_FPD`), menyediakan fabric clock 100 MHz (`pl_clk0`), serta sinyal reset awal (`pl_resetn0`).
